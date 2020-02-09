@@ -15,7 +15,7 @@ function paintImg(imgNum) {
 }
 
 function genRandom() {
-    const num = Math.floor(Math.random() * 8)
+    const num = Math.floor(Math.random() * 5)
     return num;
     
 }
