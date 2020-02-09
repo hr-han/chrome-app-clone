@@ -3,7 +3,7 @@ const IMG_NUMBER = 8;
 
 function paintImg(imgNum) {
     const image = new Image();
-    image.src = `../images/img_${imgNum + 1}.jpg`;
+    image.src = `images/img_${imgNum + 1}.jpg`;
     image.classList.add("bgImg");
     body.prepend(image);
 }
