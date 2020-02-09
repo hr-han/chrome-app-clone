@@ -1,17 +1,11 @@
 const body = document.querySelector("body");
 const IMG_NUMBER = 8;
 
-function handleImgLoad(params) {
-    alert('뿅');
-    
-}
-
 function paintImg(imgNum) {
     const image = new Image();
-    image.src = `/images/${imgNum + 1}.jpg`;
+    image.src = `./images/${imgNum + 1}.jpg`;
     image.classList.add("bgImg");
     body.prepend(image);
-    
 }
 
 function genRandom() {
